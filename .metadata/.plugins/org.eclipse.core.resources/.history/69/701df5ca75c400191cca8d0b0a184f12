@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : ludmila.c
+ Author      : ludmila
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(void) {
+
+int numeroUno;
+int numeroDos;
+
+printf("Ingrese el numero uno");
+scanf("%d",&numeroUno);
+prinf("Ingrese el numero dos");
+printf("El numero ingresado es %d",numeroUno);
+return 0;
+}

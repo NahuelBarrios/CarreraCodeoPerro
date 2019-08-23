@@ -1,0 +1,26 @@
+20:58:16 **** Build of configuration Debug for project Barrios ****
+make all 
+Building file: ../src/Barrios.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Barrios.d" -MT"src/Barrios.o" -o "src/Barrios.o" "../src/Barrios.c"
+../src/Barrios.c:15:17: warning: "/*" within comment [-Wcomment]
+  puts("Jello"); /* prints Jello
+                  
+../src/Barrios.c:33:16: warning: "/*" within comment [-Wcomment]
+  puts("HOla"); /* prints HOla
+                 
+../src/Barrios.c: In function ‘main’:
+../src/Barrios.c:63:17: warning: implicit declaration of function ‘sumar’ [-Wimplicit-function-declaration]
+     resultado = sumar(numero1,numero2);
+                 ^~~~~
+Finished building: ../src/Barrios.c
+ 
+Building target: Barrios
+Invoking: GCC C Linker
+gcc  -o "Barrios"  ./src/Barrios.o   
+./src/Barrios.o: En la función `main':
+/home/alumno/eclipse-workspace1/Barrios/Debug/../src/Barrios.c:63: referencia a `sumar' sin definir
+makefile:30: fallo en las instrucciones para el objetivo 'Barrios'
+collect2: error: ld returned 1 exit status
+make: *** [Barrios] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.

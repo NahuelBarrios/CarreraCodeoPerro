@@ -1,0 +1,6 @@
+18:45:01 **** Incremental Build of configuration Debug for project ludmila ****
+make all 
+make: No se hace nada para 'all'.
+
+18:45:02 Build Finished. 0 errors, 0 warnings. (took 260ms)
+
