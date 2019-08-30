@@ -43,61 +43,72 @@ int Sumar(int nro1, int nro2){
 }
 */
 
-int numeroiterador (int numero);
+#define ITERA_DOR 5
+
+int calculoMaximoyMin (int *pMax, int *pMin, int *pAcumulador, float *pPromedio );
 
 int main (void){
 
-	int numero;
-	int maximo;
-	int minimo;
-	int cantdevecesqueitera;
-	int numeroiterador;
+	int maximo=0;
+	int minimo=0;
 	int acumulador;
+	float promedio;
+
+
+	calculoMaximoyMin(&maximo,&minimo,&acumulador,&promedio);
+
+	printf("El maximo es: %d\n",maximo);
+	printf("El minimo es: %d\n",minimo);
+
+	printf("El promedio es:%f\n",promedio);
+
+return 0;
+
+
+
+}
+
+int calculoMaximoyMin (int *pMax, int *pMin, int *pAcumulador,float *pPromedio ){
+
+	int numero;
 	int i;
+	int flag = 0;
 
-	cantdevecesqueitera= (numeroiterador);
-
-	printf("Ingrese un numero:");
-	scanf("%d",&numero);
-
-	maximo = numero;
-	minimo = numero;
-	acumulador = numero;
-
-	for (i=0; i < cantdevecesqueitera;i++){
+	for (i = 0; i < ITERA_DOR;i++){
 
 		printf("Ingrese un numero:");
 		scanf("%d",&numero);
 
-			if(numero > maximo){
+		if(flag == 0){
+			*pMax = numero;
+			*pMin = numero;
+			flag =1;
 
-				maximo = numero;
-			}
+		}
 
-			if(numero < minimo){
+		else{
 
-				minimo = numero;
-			}
+		if (numero > *pMax){
 
-			acumulador = acumulador + numero;
+			*pMax = numero;
+		}
+
+		if (numero < *pMin)
+
+			*pMin = numero;
+
+		}
+
+		*pAcumulador = *pAcumulador + numero;
+
+
+
+
 	}
 
+	*pPromedio = *pAcumulador / ITERA_DOR;
 
-	printf("numero maximo: %d\n",maximo);
-	printf("numero minimo: %d\n",minimo);
-	printf("Promedio: %d",acumulador/cantdevecesqueitera);
-
-	return 0;
-
-}
-
-int numeroiterador (int numero){
-
-
-	printf("Ingrese el numero iterador:");
-	scanf("%d",&numero);
-
-	return numero;
+		return 0;
 
 }
 
