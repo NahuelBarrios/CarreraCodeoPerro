@@ -86,9 +86,9 @@ int getStringNumeros(char msj[],int *input)
 {
 	int auxiliar;
 
-	if(esNumerico(auxiliar))
+	if(esNumerico(&auxiliar))
 	{
-		strcpy(input,auxiliar);
+		scanf("%d",&auxiliar);
 
 		return 1;
 	}

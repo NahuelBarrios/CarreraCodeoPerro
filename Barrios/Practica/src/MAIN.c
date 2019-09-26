@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "Gets.h"
 #include "getArray.h"
 #define QTY 1000
@@ -27,7 +28,7 @@ int main()
 	char auxiliarName[50];
 	char auxiliarLastName[50];
 	//float auxiliarSalary;
-	//int auxiliarSector;
+	int auxiliarSector;
 	//int auxiliarIsEmpty;
 
 	int lugarLibre;
@@ -57,7 +58,7 @@ int main()
 
 			printf("\n ALTAS \n");
 
-			if(!getStringNumeros("Ingrese el id:",auxiliarId))
+			if(!getStringNumeros("Ingrese el id:",&auxiliarId))
 			{
 				printf("\n EL ID DEBE SER SOLO NUMEROS \n");
 				break;
@@ -75,6 +76,31 @@ int main()
 				printf("\n EL APELLIDO DEBE ESTAR FORMADO POR SOLO LETRAS");
 				break;
 			}
+
+
+			if(!getStringNumeros("Ingrese el sector:",&auxiliarSector))
+			{
+				printf("\n EL SECTOR DEBE SER SOLO NUMEROS \n");
+				break;
+			}
+
+
+
+			Empleados[lugarLibre].id=auxiliarId;
+			strcpy(Empleados[lugarLibre].name,auxiliarName);
+			strcpy(Empleados[lugarLibre].lastName,auxiliarLastName);
+
+			break;
+
+			case 2:
+
+				if(!getStringNumeros("Ingrese el id a dar de baja:",&auxiliarId))
+				{
+					printf("\n EL ID DEBE SER SOLO NUMEROS \n");
+					break;
+				}
+
+
 
 
 		}
