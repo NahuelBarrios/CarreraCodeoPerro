@@ -37,13 +37,14 @@ int main(void)
 	    while(option != 6)
 	    {
 	         option = getInt("\n\n\n1 - ALTA \n2 - BAJA \n3 - MODIFICACION\n4 - LISTAR\n5 - ORDENAR\n6 - SALIR\n\n\n");
+
 	         switch(option)
 	         {
 	            case 1:
 
 	                espacioLibre = findEmptyPlace(empleadosArray,QTY);
 
-	                if(espacioLibre == 0)
+	                if(espacioLibre == -1)
 	                {
 	                    printf("\n\nNO QUEDAN LUGARES LIBRES!!!\n");
 	                    break;
@@ -88,7 +89,7 @@ int main(void)
 	                {
 	                    printf ("El sector debe ser numerico\n");
 	                    break;
-	                }	                }
+	                }
 	                sectorAux = atoi(sectorAuxStr);
 
 	                empleadosArray[espacioLibre].id = idAux;
@@ -202,15 +203,12 @@ int main(void)
 	        			 }
 	        		 }
 
-	        	 }
 
+	        	  }
 	        	 break;
-
 	    }
-
-	    return 0;
-}
-
+	    		}
+			}
 
 
 

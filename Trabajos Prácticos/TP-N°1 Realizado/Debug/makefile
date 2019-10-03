@@ -23,19 +23,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: TrabajoPractico
+all: TP-N°1\ Realizado
 
 # Tool invocations
-TrabajoPractico: $(OBJS) $(USER_OBJS)
+TP-N°1\ Realizado: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc  -o "TrabajoPractico" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc  -o "TP-N°1 Realizado" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) TrabajoPractico
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) "TP-N°1 Realizado"
 	-@echo ' '
 
 .PHONY: all clean dependents
