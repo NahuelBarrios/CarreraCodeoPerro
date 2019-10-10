@@ -1,0 +1,301 @@
+# depslib dependency file v1.0
+1558051531 source:/home/alumno/L.Cardozo/PrimerParcial/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+	"subMenu.h"
+
+1558046609 source:/home/alumno/L.Cardozo/PrimerParcial/orquesta.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1558044550 /home/alumno/L.Cardozo/PrimerParcial/utn.h
+
+1558046609 /home/alumno/L.Cardozo/PrimerParcial/orquesta.h
+
+1558051407 source:/home/alumno/L.Cardozo/PrimerParcial/subMenu.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+	"orquesta.h"
+
+1558048334 source:/home/alumno/L.Cardozo/PrimerParcial/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1558051480 /home/alumno/L.Cardozo/PrimerParcial/subMenu.h
+	"musico.h"
+	"orquesta.h"
+
+1558054086 source:/home/alumno/L.Cardozo/PrimerParcial/instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"orquesta.h"
+	"musico.h"
+	"instrumento.h"
+	"utn.h"
+
+1558051543 /home/alumno/L.Cardozo/PrimerParcial/musico.h
+	"musico.h"
+	"orquesta.h"
+
+1558053983 source:/home/alumno/L.Cardozo/PrimerParcial/musico.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"orquesta.h"
+	"musico.h"
+	"utn.h"
+
+1558054661 /home/alumno/L.Cardozo/PrimerParcial/instrumento.h
+
+1559246925 source:c:\users\lucia\desktop\nueva carpeta\primerparcial\instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"instrumento.h"
+
+1559249595 c:\users\lucia\desktop\nueva carpeta\primerparcial\orquesta.h
+	"orquesta.h"
+	"instrumento.h"
+
+1559249595 c:\users\lucia\desktop\nueva carpeta\primerparcial\musico.h
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+
+1558557356 c:\users\lucia\desktop\nueva carpeta\primerparcial\instrumento.h
+
+1558099387 c:\users\lucia\desktop\nueva carpeta\primerparcial\utn.h
+
+1559244287 source:c:\users\lucia\desktop\nueva carpeta\primerparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"instrumento.h"
+	"funcionesEspeciales.h"
+	"orquesta.h"
+	"musico.h"
+	"subMenu.h"
+
+1559244074 c:\users\lucia\desktop\nueva carpeta\primerparcial\submenu.h
+	"musico.h"
+	"orquesta.h"
+	"instrumento.h"
+
+1559249595 source:c:\users\lucia\desktop\nueva carpeta\primerparcial\musico.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+
+1559246925 source:c:\users\lucia\desktop\nueva carpeta\primerparcial\orquesta.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+
+1559246925 source:c:\users\lucia\desktop\nueva carpeta\primerparcial\submenu.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"subMenu.h"
+	"musico.h"
+	"funcionesEspeciales.h"
+
+1559245904 source:c:\users\lucia\desktop\nueva carpeta\primerparcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1559240429 source:c:\users\lucia\desktop\nueva carpeta\primerparcial\funcionesespeciales.c
+	"orquesta.h"
+	"musico.h"
+
+1558558111 c:\users\lucia\desktop\nueva carpeta\primerparcial\funcionesespeciales.h
+	"orquesta.h"
+	"musico.h"
+
+1558568535 source:/home/alumno/cardozo,l/PrimerParcial/funcionesEspeciales.c
+	"orquesta.h"
+	"musico.h"
+
+1558561120 /home/alumno/cardozo,l/PrimerParcial/orquesta.h
+	"orquesta.h"
+	"instrumento.h"
+
+1558561120 /home/alumno/cardozo,l/PrimerParcial/instrumento.h
+
+1558569031 /home/alumno/cardozo,l/PrimerParcial/musico.h
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+
+1558561120 source:/home/alumno/cardozo,l/PrimerParcial/instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"instrumento.h"
+
+1558561120 /home/alumno/cardozo,l/PrimerParcial/utn.h
+
+1558561609 source:/home/alumno/cardozo,l/PrimerParcial/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"instrumento.h"
+	"funcionesEspeciales.h"
+	"orquesta.h"
+	"musico.h"
+	"subMenu.h"
+
+1558561120 /home/alumno/cardozo,l/PrimerParcial/funcionesEspeciales.h
+	"orquesta.h"
+	"musico.h"
+
+1558568143 /home/alumno/cardozo,l/PrimerParcial/subMenu.h
+	"musico.h"
+	"orquesta.h"
+	"instrumento.h"
+
+1558569031 source:/home/alumno/cardozo,l/PrimerParcial/musico.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+
+1558562130 source:/home/alumno/cardozo,l/PrimerParcial/orquesta.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1558569031 source:/home/alumno/cardozo,l/PrimerParcial/subMenu.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"subMenu.h"
+	"musico.h"
+	"funcionesEspeciales.h"
+
+1558561120 source:/home/alumno/cardozo,l/PrimerParcial/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1559261774 source:/home/alumno/Cardozo,Lu/PrimerParcial/informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+	"informes.h"
+
+1559260099 /home/alumno/Cardozo,Lu/PrimerParcial/utn.h
+
+1559260099 /home/alumno/Cardozo,Lu/PrimerParcial/orquesta.h
+	"orquesta.h"
+	"instrumento.h"
+
+1559260099 /home/alumno/Cardozo,Lu/PrimerParcial/instrumento.h
+
+1559261555 /home/alumno/Cardozo,Lu/PrimerParcial/musico.h
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+
+1559261712 /home/alumno/Cardozo,Lu/PrimerParcial/informes.h
+	"orquesta.h"
+	"instrumento.h"
+	"musico.h"
+
+1559260099 source:/home/alumno/Cardozo,Lu/PrimerParcial/instrumento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"instrumento.h"
+
+1559260099 source:/home/alumno/Cardozo,Lu/PrimerParcial/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"instrumento.h"
+	"funcionesEspeciales.h"
+	"orquesta.h"
+	"musico.h"
+	"subMenu.h"
+
+1559260099 /home/alumno/Cardozo,Lu/PrimerParcial/funcionesEspeciales.h
+	"orquesta.h"
+	"musico.h"
+
+1559260099 /home/alumno/Cardozo,Lu/PrimerParcial/subMenu.h
+	"musico.h"
+	"orquesta.h"
+	"instrumento.h"
+
+1559261592 source:/home/alumno/Cardozo,Lu/PrimerParcial/musico.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+
+1559260099 source:/home/alumno/Cardozo,Lu/PrimerParcial/orquesta.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+
+1559261632 source:/home/alumno/Cardozo,Lu/PrimerParcial/subMenu.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"subMenu.h"
+	"musico.h"
+	"informes.h"
+	"funcionesEspeciales.h"
+
+1559260099 source:/home/alumno/Cardozo,Lu/PrimerParcial/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
