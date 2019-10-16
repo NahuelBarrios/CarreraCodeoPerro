@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1570854962 source:c:\users\risus\desktop\espacio de trabajo\examenpo\main\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+
+1570854981 c:\users\risus\desktop\espacio de trabajo\examenpo\main\cliente.h
+
+1571160021 source:c:\users\risus\desktop\espacio de trabajo\examenpo\main\pedido.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"pedido.h"
+
+1570854912 c:\users\risus\desktop\espacio de trabajo\examenpo\main\utn.h
+
+1571239375 c:\users\risus\desktop\espacio de trabajo\examenpo\main\pedido.h
+
+1571247973 source:c:\users\risus\desktop\espacio de trabajo\examenpo\main\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"cliente.h"
+	"pedido.h"
+
+1571001098 source:c:\users\risus\desktop\espacio de trabajo\examenpo\main\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
