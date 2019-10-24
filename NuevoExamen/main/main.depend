@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1571845431 source:c:\users\risus\desktop\espacio de trabajo\nuevoexamen\main\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"pedidos.h"
+	"informes.h"
+
+1571615171 c:\users\risus\desktop\espacio de trabajo\nuevoexamen\main\utn.h
+
+1571758908 c:\users\risus\desktop\espacio de trabajo\nuevoexamen\main\clientes.h
+
+1571755985 c:\users\risus\desktop\espacio de trabajo\nuevoexamen\main\pedidos.h
+
+1571715175 source:c:\users\risus\desktop\espacio de trabajo\nuevoexamen\main\pedidos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"pedidos.h"
+	"informes.h"
+
+1571615909 source:c:\users\risus\desktop\espacio de trabajo\nuevoexamen\main\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"pedidos.h"
+
+1571758930 source:c:\users\risus\desktop\espacio de trabajo\nuevoexamen\main\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"pedidos.h"
+	"informes.h"
+
+1571848470 c:\users\risus\desktop\espacio de trabajo\nuevoexamen\main\informes.h
+
+1571848543 source:c:\users\risus\desktop\espacio de trabajo\nuevoexamen\main\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"clientes.h"
+	"pedidos.h"
+	"informes.h"
+
